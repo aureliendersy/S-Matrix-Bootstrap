@@ -1,6 +1,6 @@
 # S-Matrix-Bootstrap
 
-Repository for hosting the analysis tools required for solving the unitary integral equation.
+Repository for hosting the analysis tools required for generating coherent amplitudes, satisfying the unitarity constraint.
 
 ### Overview and Motivation
 
@@ -13,8 +13,17 @@ $$B (z) \sin \phi (z) = \frac{1}{4 \pi} \int_{- 1}^1 d z_1  \int_0^{2 \pi} d
    
 ##### ML angle
 
-To tackle this problem we will represent $\phi(z)$ by a neural network and try and solve the integral equation, by characterizing it as a loss term $\mathcal{L}$. We will also implement a repulsive loss to characterize whether the solution is unique or not
+To tackle this problem we will represent $\phi(z)$ by a neural network and try and solve the integral equation, by characterizing it as a loss term $\mathcal{L}$. We will also implement a repulsive loss to characterize whether the solution is unique or not.
+
+### Dependencies
+
+We require 
+
+- pytorch (1.12.1)
+- numpy (1.23.2)
+- tqdm (4.64.1)
+- matplotlib (3.5.3)
 
 ### Files
 
-Notebooks can be executed directly. Where long runs are required to generate the data, we provide the option to either excecute the routine or load the data results from the Data tab
+The Notebooks can be executed directly. Where long runs are required to generate the data, we provide the option to either excecute the routine or load the data results from the Data tab
