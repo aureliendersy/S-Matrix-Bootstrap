@@ -27,3 +27,12 @@ We require
 ### Files
 
 The Notebooks can be executed directly. Where long runs are required to generate the data, we provide the option to either excecute the routine or load the data results from the Data tab
+
+---
+
+The notebooks and data files were written and used to generate the figures for the paper:
+
+https://arxiv.org/abs/2308.09451
+
+*Aurélien Dersy,  Matthew D. Schwartz and  Alexander Zhiboedov*
+
