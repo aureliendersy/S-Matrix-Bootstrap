@@ -30,9 +30,25 @@ The Notebooks can be executed directly. Where long runs are required to generate
 
 ---
 
-The notebooks and data files were written and used to generate the figures for the paper:
-
-https://arxiv.org/abs/2308.09451
+The notebooks and data files were written and used to generate the figures for [**Reconstructing S-matrix Phases with Machine Learning**](https://link.springer.com/article/10.1007/JHEP05(2024)200)
 
 *Aurélien Dersy,  Matthew D. Schwartz and  Alexander Zhiboedov*
+
+Please cite following
+
+```
+@article{Dersy:2023job,
+    author = "Dersy, Aur\'elien and Schwartz, Matthew D. and Zhiboedov, Alexander",
+    title = "{Reconstructing S-matrix Phases with Machine Learning}",
+    eprint = "2308.09451",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
+    reportNumber = "CERN-TH-2023-161",
+    doi = "10.1007/JHEP05(2024)200",
+    journal = "JHEP",
+    volume = "05",
+    pages = "200",
+    year = "2024"
+}
+```
 
